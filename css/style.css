@@ -136,7 +136,7 @@ body {
 }
 
 .btn:hover {
-    background: #0E3B6C;
+    background-color: #0E3B6C;
 }
 /*    hero          */
 
@@ -280,18 +280,21 @@ body {
     margin-right: 30px;
 }
 
+
 .blog-preview-image {
     object-fit: cover;
 }
 
 .blog-preview-text {
+    color: #1C1C1C;
     padding: 30px;
+    transition: .2s;
 }
 
 .blog-preview-time {
     display: block;
     margin-bottom: 5px;
-    color: #787878;
+    color: inherit;
     font-weight: 400;
     font-size: 10px;
     line-height: 150%;
@@ -300,19 +303,28 @@ body {
 .blog-preview-title {
     margin: 0;
     margin-bottom: 15px;
-    color: #1C1C1C;
+    color: inherit;
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
+    transition: .1s;
 }
 
 .blog-preview-dsc {
     margin: 0;
-    color: #787878;
+    color: inherit;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
+    transition: .6s;
 }
+
+.blog-preview-text:hover {
+    background-color: #3172B9;
+    color: white;
+
+}
+
 
 /*               clients              */
 .clients {
