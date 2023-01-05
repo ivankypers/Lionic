@@ -89,19 +89,6 @@ body {
     padding-bottom: 160px;
 }
 
-.disabled {
-    color: #787878;
-    text-decoration: none;
-    cursor: default;
-}
-
-.disabled:hover {
-    color: #787878 !important;
-    border: none !important;
-    cursor: default;
-}
-
-
 /*               header               */
 .header{
     padding: 36px 0;
@@ -145,8 +132,12 @@ body {
     background-color: #3172B9;
     border-radius: 3px;
     padding: 15px 36px;
+    transition: .2s;
 }
 
+.btn:hover {
+    background: #0E3B6C;
+}
 /*    hero          */
 
 .hero {
