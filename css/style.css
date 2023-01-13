@@ -197,7 +197,7 @@ body {
 
 .hero {
     padding: 130px 0 150px;
-    background-image: url("/img/first-bg.jpg");
+    background-image: url("../img/first-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
