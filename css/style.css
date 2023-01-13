@@ -197,7 +197,7 @@ body {
 
 .hero {
     padding: 130px 0 150px;
-    background-image: url("../img/first-bg.jpg");
+    background-image: url("/img/firstbg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -505,15 +505,15 @@ body {
 }
 
 .contacts-item_visit {
-    background-image: url("/img/visit-us.svg");
+    background-image: url("/img/visitus.svg");
 }
 
 .contacts-item_phone {
-    background-image: url("/img/call-us.svg");
+    background-image: url("/img/callus.svg");
 }
 
 .contacts-item_email {
-    background-image: url("/img/email-us.svg");
+    background-image: url("/img/emailus.svg");
 }
 
 
