@@ -206,7 +206,7 @@ body {
 
 .hero {
     padding: 130px 0 150px;
-    background-image: url("/img/firstbg.jpg");
+    background-image: url("/images/firstbg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -245,7 +245,7 @@ body {
     font-weight: 400;
     font-size: 11px;
     line-height: 155%;
-    background-image: url("/img/secure.svg");
+    background-image: url("/images/secure.svg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 14px 17px;
@@ -516,15 +516,15 @@ body {
 }
 
 .contacts-item_visit {
-    background-image: url("/img/visitus.svg");
+    background-image: url("/images/visitus.svg");
 }
 
 .contacts-item_phone {
-    background-image: url("/img/callus.svg");
+    background-image: url("/images/callus.svg");
 }
 
 .contacts-item_email {
-    background-image: url("/img/emailus.svg");
+    background-image: url("/images/emailus.svg");
 }
 
 
